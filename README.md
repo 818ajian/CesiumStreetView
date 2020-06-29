@@ -1,4 +1,4 @@
-# Simple CesiumJS Camera Controlling similar to Google StreetView
+# Simple CesiumJS Camera Controlling similar to Google Street View
 
 ## 1 when a user clicks a point, the camera should move to that point
 ##### a. orientation of camera should be the same when moving
