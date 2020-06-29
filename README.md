@@ -4,9 +4,9 @@
 ##### a. orientation of camera should be the same when moving
 ##### b. height of camera to the ground of the 3D tile should be the same when moving
 
+![alt idea](https://raw.githubusercontent.com/3DGISKing/CesiumStreetView/master/idea.jpeg?raw=true)
+
 ## 2. Cesium.ScreenSpaceEventType.LEFT_DOWN should be same as Google Street View 
 #### so that the screen does not keep tilting to the side when user is looking around.
 #### This can be seen in Cesium when the user holds SHIFT+LEFT_DOWN to rotate around
 
-![GitHub Logo](./idea.jpg)
-Format: ![Alt Text](url)
