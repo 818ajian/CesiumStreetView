@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Use correct character set. -->
+    <meta charset="utf-8">
+    <!-- Tell IE to use the latest, best version. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>StreetView</title>
+    
+    <link rel = "stylesheet" href="./app.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+<!--    <script src="./Cesium-1.61/Build/CesiumUnminified/Cesium.js"></script>-->
+<!--    <link rel = "stylesheet" href="./Cesium-1.61/Build/CesiumUnminified/Widgets/widgets.css">-->
+    
+    <script src="https://cesiumjs.org/releases/1.61/Build/Cesium/Cesium.js"></script>
+    <link rel = "stylesheet" href="https://cesiumjs.org/releases/1.61/Build/Cesium/Widgets/widgets.css">
+
+</head>
+<body>
+<div id="cesiumContainer"></div>
+
+<div id="toolbar">
+    <button id="enterStreetViewButton" class="cesium-button">Enter StreetView</button>
+    <button id="exitStreetViewButton" class="cesium-button" style="display: none">Exit StreetView</button>
+</div>
+
+<script src="StreetViewController.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
