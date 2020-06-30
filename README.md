@@ -10,3 +10,4 @@
 #### so that the screen does not keep tilting to the side when user is looking around.
 #### This can be seen in Cesium when the user holds SHIFT+LEFT_DOWN to rotate around
 
+[![](http://img.youtube.com/vi/gGPNBQO_rG8/0.jpg)](http://www.youtube.com/watch?v=gGPNBQO_rG8 "")
